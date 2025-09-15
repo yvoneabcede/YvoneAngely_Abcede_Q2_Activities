@@ -1,0 +1,31 @@
+
+.fox{
+    border:5px solid rgb(161, 29, 29);
+    background: rgb(248, 248, 215);
+    justify-self: center;
+}
+
+img{
+    border-color: rgb(231, 150, 28);
+    border-style: inset;
+    background-size: 300px;
+    width: 300px;
+    height: 150px;
+    justify-self: center;
+}
+
+p{
+    border: dashed rgb(231, 150, 28);
+    background-color: rgb(255, 251, 31);
+    width: 300px;
+    height: 150px;
+    justify-self: center;
+    overflow: scroll;
+}
+
+.head{
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}

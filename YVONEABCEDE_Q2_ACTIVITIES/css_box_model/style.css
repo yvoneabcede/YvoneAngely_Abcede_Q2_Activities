@@ -1,0 +1,10 @@
+.card{
+    border: 5px solid rgb(113, 207, 113);
+    border-radius: 15px;
+    background: #ffafcc;
+    text-align: center;
+    padding: 10px 20px 30px;
+    width: 300px;
+    height: 200px;
+    font-family: monospace;
+}

@@ -1,0 +1,22 @@
+h1 {
+   font-family: "Roboto", sans-serif;    
+}
+
+.intro{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.quote{
+    font-style: italic;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.note{
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
