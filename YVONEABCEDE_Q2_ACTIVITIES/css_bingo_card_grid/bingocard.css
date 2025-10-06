@@ -1,0 +1,43 @@
+.cardcontainer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    background-color: rgb(34, 117, 34);
+    padding: 8px;
+    gap: 10px;
+    width: 480px;
+    height: 570px;
+    margin: AUTO;
+    border-radius: 20px;
+    height: 600px;
+}
+
+.bingoheader{
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    text-align: center;
+    word-spacing: 20px;
+    margin-bottom: 20px;
+    font-size: 45px; 
+}
+
+.grid-bingo{
+    background-color: lightgreen;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+    transition: 0.5s;
+}
+
+div.grid-bingo:hover {
+    background-color: lightcoral;
+    transform: scale(0.8);
+    font-size: xx-large;
+    font-weight: bold;
+    cursor: pointer;
+}
+
