@@ -1,0 +1,23 @@
+td, th {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.table-hover tr:hover {
+  background-color: lightgreen;
+}
+
+.table-container {
+  overflow-x: auto;
+  background-color: aquamarine;
+}
