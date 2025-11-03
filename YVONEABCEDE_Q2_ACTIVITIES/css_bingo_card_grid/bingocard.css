@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    background-color: rgb(34, 117, 34);
+    background-color: lightpink;
     padding: 8px;
     gap: 10px;
     width: 480px;
@@ -18,11 +18,11 @@
     text-align: center;
     word-spacing: 20px;
     margin-bottom: 20px;
-    font-size: 45px; 
+    font-size: 45px;
 }
 
 .grid-bingo{
-    background-color: lightgreen;
+    background-color: white;
     border: 1px solid black;
     padding: 10px;
     font-size: 30px;
@@ -34,10 +34,18 @@
 }
 
 div.grid-bingo:hover {
-    background-color: lightcoral;
+    background-color: lightgreen;
     transform: scale(0.8);
     font-size: xx-large;
     font-weight: bold;
     cursor: pointer;
 }
 
+div.grid-bingo:active {
+    background-color: lightseagreen;
+    color: rgb(0, 0, 0);
+    transform: scale(0.8);
+    font-size: xx-large;
+    font-weight: bold;
+    cursor: pointer;
+}
